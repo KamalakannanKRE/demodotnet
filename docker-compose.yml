@@ -1,0 +1,21 @@
+version: '7'
+
+services:
+  DotNet:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: karthickick08/dotnetkarthi:latest
+    container_name: DotNetRenamed
+    ports:
+      - "5059:5050"
+
+  # mysql:
+  #   image: mysql:latest
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: root
+  #     MYSQL_DATABASE: employee_user
+  #     MYSQL_USER: root
+  #     MYSQL_PASSWORD: Database@123
+  #   ports:
+  #     - "3306:3306"
