@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\karthick.gnanasekara\\.nuget\\packages\\": {}
+    "C:\\Users\\Kamalakannan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DevOps\\DotNet\\DotNet.csproj",
+      "projectUniqueName": "C:\\Users\\Kamalakannan\\Desktop\\kamal\\DotNetKKK\\DotNet.csproj",
       "projectName": "DotNet",
-      "projectPath": "D:\\DevOps\\DotNet\\DotNet.csproj",
-      "packagesPath": "C:\\Users\\karthick.gnanasekara\\.nuget\\packages\\",
-      "outputPath": "D:\\DevOps\\DotNet\\obj\\",
+      "projectPath": "C:\\Users\\Kamalakannan\\Desktop\\kamal\\DotNetKKK\\DotNet.csproj",
+      "packagesPath": "C:\\Users\\Kamalakannan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kamalakannan\\Desktop\\kamal\\DotNetKKK\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\karthick.gnanasekara\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Kamalakannan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -54,6 +54,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -62,7 +80,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
